@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Crafting Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Advanced Crafting Game</h1>
+    <div id="game">
+        <div id="inventory">
+            <h2>Inventory</h2>
+            <ul id="items"></ul>
+        </div>
+        <div id="crafting">
+            <h2>Crafting Area</h2>
+            <div id="crafting-area" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
